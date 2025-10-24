@@ -1,0 +1,22 @@
+{
+  "name": "lowcoder-dev-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "gulp",
+    "build:fast": "gulp buildCompsOnly",
+    "watch": "gulp watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "decompress": "^4.2.1",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.2",
+    "globby": "^15.0.0",
+    "gulp": "^5.0.1"
+  }
+}
